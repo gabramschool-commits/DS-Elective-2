@@ -1,0 +1,61 @@
+   body {
+        background-image: url("BG.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+p{
+      color:rgb(244, 244, 214);
+      font-family: "HYWenHei 85W";
+      font-size: 28px;
+      text-align: center;
+      padding-top: 20;
+ }
+ .character-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100vh;
+  padding: 40px;
+  color: rgb(244, 244, 214);
+}
+
+/* Dark background for image */
+.character-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.5); /* dark background behind GIF */
+  padding: 10px;
+}
+
+/* Dark background for text */
+.character-info {
+  max-width: 600px;
+  font-family: "HYWenHei 85W";
+  font-size: 20px;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.6); /* dark semi-transparent box */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+}
+
+.character-info h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  display: block;
+  margin-top: 30px;
+  font-size: 18px;
+  color: gold;
+  text-decoration: none;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
